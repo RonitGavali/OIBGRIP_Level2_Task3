@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    .container{
+        background-image: url("to_do)wall1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        margin-top:0px;
+        color: white;
+        }
+        #sub_container{
+            padding-top: 30px;
+            background-color: white;
+            height: 700px;
+            width: 550px;
+            border-radius: 20px;
+            margin-left: 40%;
+          
+        }
+        .list_head{
+            padding-top: 70px;
+        }
+        .heading{
+            font-size: 50px;
+            font-style: italic;
+            margin-left: 46%;
+        }
+        #list{
+            width: 400px;
+            height: 70px;
+            border-radius: 20px;
+            margin-top: 8px;
+            margin-left: 25px;
+            border: none;
+            font-size: 25px;
+            
+        }
+        .accept_list{
+            height: 40px;
+            width: 70px;
+            background-color: white;  
+            
+        }
+        #tasks{
+            width: 400px;
+            height: 40px;
+            font-size: 20px;
+            color: red;  
+            margin-top: 50px;
+            margin-left: 15px;
+            border: none;
+           
+        }
+       
+        button{
+            height: 70px;
+            width: 80px;
+            border-radius: 20px;
+            font-size: 25px;
+            background-color: orange;
+            color: white;
+            border: none;
+           
+           
+        }
+        button:hover{
+            background-color: skyblue;
+        }
+        .delete{
+            margin-left:400px;
+            margin-top: -200px;
+           
+        }
+        .task{
+            margin-top: 35px;
+            border: solid 2px black;
+            margin-left: 15px;
+            border-radius: 20px;
+            width: 400px;
+            height: 70px;
+        }
+        #taskname{
+            margin-left: 10px;
+            margin-top: 25px;
+    
+        }
+        footer{
+            text-align: center;
+            font-size: 25px;
+            color:red;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+       
